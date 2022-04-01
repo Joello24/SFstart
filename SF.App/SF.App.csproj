@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SF.BLL\SF.BLL.csproj" />
+      <ProjectReference Include="..\SF.Core\SF.Core.csproj" />
+      <ProjectReference Include="..\SF.DAL\SF.DAL.csproj" />
+      <ProjectReference Include="..\SF.UI\SF.UI.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Ninject" Version="4.0.0-beta-0134" />
+    </ItemGroup>
+
+</Project>
